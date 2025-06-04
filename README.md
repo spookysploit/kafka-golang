@@ -32,6 +32,11 @@ __http://localhost:9020/__
 
 ---
 
+Запуск producer и consumer:\
+Скачайте все зависимости:
+```
+go mod tidy
+```
 Пример работы producer (отправка сообщений):
 ```
 go run ./cmd/producer/main.go
