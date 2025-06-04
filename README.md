@@ -32,7 +32,7 @@ __http://localhost:9020/__
 
 ---
 
-Запуск producer и consumer:\
+## Запуск producer и consumer
 Скачайте все зависимости:
 ```
 go mod tidy
