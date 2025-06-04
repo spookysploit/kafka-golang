@@ -13,3 +13,28 @@
 - **Библиотека:** `github.com/confluentinc/confluent-kafka-go`
 
 ---
+
+## Запуск в Docker
+Скачайте репозиторий используя команду:
+```
+git clone https://github.com/spookysploit/kafka-golang.git
+```
+Перейдите в репозиторий:
+```
+cd ./kafka-golang
+```
+Запустите командой:
+```
+docker compose up --build
+```
+После запуска контейнеров также будет доступен веб-интерфейс по адресу:\
+__http://localhost:9020/__
+
+---
+
+Пример работы producer:
+```
+go run ./cmd/producer/main.go
+```
+![image](https://github.com/user-attachments/assets/aa0c0e2c-426c-48a1-8622-79a1be064feb)
+
