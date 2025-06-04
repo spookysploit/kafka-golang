@@ -32,9 +32,16 @@ __http://localhost:9020/__
 
 ---
 
-Пример работы producer:
+Пример работы producer (отправка сообщений):
 ```
 go run ./cmd/producer/main.go
 ```
 ![image](https://github.com/user-attachments/assets/aa0c0e2c-426c-48a1-8622-79a1be064feb)
 
+--- 
+
+Пример работы consumer (чтение сообщений):
+```
+go run ./cmd/consumer/main.go
+```
+![image](https://github.com/user-attachments/assets/d2e1f11f-947f-4121-9192-9ef24eea6941)
